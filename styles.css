@@ -1,6 +1,6 @@
 body{
     background: url("https://steamcdn-a.akamaihd.net/steam/apps/739630/capsule_616x353.jpg?t=1602901901") no-repeat 		center center fixed; 
-	background-size: 1000px;
+	background-size: cover;
 }
 .body {
 	visibility:hidden;
@@ -12,7 +12,7 @@ body{
 }
 .start {
 	font-size:75px;
-    transform: translateX(110%);
+    text-align:center;
 
 }
 .cluesimage {
@@ -41,5 +41,5 @@ h1 {
 .interaction{
     font-family: 'Lemonada', cursive;
 	display:flex;   
-    justify-content:space-around;
+    justify-content:center;
 }
