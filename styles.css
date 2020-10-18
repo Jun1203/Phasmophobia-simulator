@@ -1,0 +1,45 @@
+body{
+    background: url("https://steamcdn-a.akamaihd.net/steam/apps/739630/capsule_616x353.jpg?t=1602901901") no-repeat 		center center fixed; 
+	background-size: 1000px;
+}
+.body {
+	visibility:hidden;
+}
+.explanation{
+	text-align:center;
+   	transform: translateY(70%);
+    font-size:150%;
+}
+.start {
+	font-size:75px;
+    transform: translateX(110%);
+
+}
+.cluesimage {
+	display:flex;   
+    justify-content:space-between;
+    visibility:hidden;
+}
+.cluesp {
+	display:flex;   
+    justify-content:space-between;
+    visibility:hidden;
+}
+p {
+	font-family: 'Lemonada', cursive;
+    color:red;
+}
+img {
+	width:17%;
+    height:17%;   
+}
+h1 {
+    font-family: 'Lemonada', cursive;
+	text-align:center;
+    color:red;
+}
+.interaction{
+    font-family: 'Lemonada', cursive;
+	display:flex;   
+    justify-content:space-around;
+}
